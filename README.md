@@ -239,6 +239,10 @@ To use an icon, add one of the following modifier classes (see markup example ab
 | ![IconDistributeVerticalSpacing](src/icons/distribute-vertical-spacing.svg "icon")     | `icon--distribute-vertical-spacing`   |
 | ![IconDraft](src/icons/draft.svg "icon")                                               | `icon--draft`                         |
 | ![IconEffects](src/icons/effects.svg "icon")                                           | `icon--effects`                       |
+| ![IconDropShadow](src/icons/drop-shadow.svg "icon")                                    | `icon--drop-shadow`                   |
+| ![IconLayerBlur](src/icons/layer-blur.svg "icon")                                      | `icon--layer-blur`                    |
+| ![IconBackgroundBlur](src/icons/background-blur.svg "icon")                            | `icon--background-blur`               |
+| ![IconInnerShadow](src/icons/inner-shadow.svg "icon")                                  | `icon--inner-shadow`                  |
 | ![IconEllipses](src/icons/ellipses.svg "icon")                                         | `icon--ellipses`                      |
 | ![IconEyedropper](src/icons/eyedropper.svg "icon")                                     | `icon--eyedropper`                    |
 | ![IconForward](src/icons/forward.svg "icon")                                           | `icon--forward`                       |
