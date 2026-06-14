@@ -73,6 +73,7 @@
 		&__content {
 			display: block;
 			border-bottom: 1px solid transparent;
+			pointer-events: all;
 		}
 		&__label {
 			&:before {
