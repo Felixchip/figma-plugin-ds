@@ -92,6 +92,36 @@
     --size-xxxlarge: 80px;
 }
 
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Basic foreground - inverted for dark mode */
+        --black: #ffffff;
+        --black8: rgba(255, 255, 255, .8);
+        --black8-opaque: #cccccc;
+        --black3: rgba(255, 255, 255, .3);
+        --black3-opaque: #666666;
+        --white: #1e1e1e;
+        --white8: rgba(30, 30, 30, .8);
+        --white4: rgba(30, 30, 30, .4);
+
+        /* Basic background - dark equivalents */
+        --grey: #2c2c2c;
+        --silver: #3c3c3c;
+
+        /* Special */
+        --black1: rgba(255, 255, 255, .1);
+        --hover-fill: rgba(255, 255, 255, .06);
+        --selection-a: #264f78;
+        --selection-b: #1a3a5c;
+        --white2: rgba(0, 0, 0, .2);
+
+        /* Shadows - adjusted for dark backgrounds */
+        --shadow-hud: 0 5px 17px rgba(0, 0, 0, .5), 0 2px 7px rgba(0, 0, 0, .4);
+        --shadow-floating-window: 0 2px 14px rgba(0, 0, 0, .4);
+    }
+}
+
 /* Global styles */
 
 * {

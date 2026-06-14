@@ -28,6 +28,10 @@ A lightweight UI library for creating Figma plugins.
 
 This package contains CSS and Javascript to closely match the look, feel and function of those found in Figma. It has been created without any frameworks (like React, Vue, etc.) and only leverages (native) javascript for components not possible without.
 
+## Dark mode
+
+This library supports dark mode via the `prefers-color-scheme` CSS media query. When a user's operating system is set to dark mode, the UI will automatically adapt. No configuration is needed - simply use the CSS and the dark mode will be applied based on the user's system settings.
+
 
 ## Getting started
 
